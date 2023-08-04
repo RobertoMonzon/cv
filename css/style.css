@@ -1,0 +1,379 @@
+*{
+    background-color: #09113A;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+
+
+.banner{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+#navbar-cv{
+    background-color: #000000; 
+    padding-bottom: 1%;
+    padding-top: 1%;
+
+}
+
+#btn1:hover{
+    background-color: rgb(13, 245, 245);
+    color: #09113A;
+}
+
+#btn2:hover{
+    background-color: rgb(255, 0, 255);
+    color: #09113A;
+}
+
+#btn3:hover{
+    background-color: rgb(60, 255, 0);
+    color: #09113A;
+}
+
+#btn4:hover{
+    background-color: rgb(255, 243, 8);
+    color: #09113A;
+}
+
+#btn5:hover{
+    background-color: rgb(4, 0, 255);
+    color: #09113A;
+}
+
+#btn6:hover{
+    background-color: rgb(255, 0, 0);
+    color: #09113A;
+}
+
+#btn7:hover{
+    background-color: #FF9900;
+    color: #09113A;
+}
+
+#btn8:hover{
+    background-color: #64009E;
+    color: #09113A;
+}
+
+a{
+    background-color: black;
+}
+
+#icon-nav{
+    width: 5%;
+}
+
+
+#yo{
+    width: 90%;
+
+}
+
+#description-text{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 90%;
+    font-size: 100%;
+    text-align: justify;
+
+}
+#profilecont2{
+    height: 1px;
+    visibility: hidden;
+}
+
+
+#profile{
+    padding: 2% 0 5% 0;
+}
+
+.card, .card-year-generation, .card-text, .campus,.card-body,.card-year,.card-title,.imagejob,.nombre__integrante,.profesion__integrante{
+    background-color: white;
+    color: #09113A;
+    text-align: center;
+}
+
+#education-div{
+    padding: 0 10% 0 10%;
+    text-align: justify;
+    align-items: center;
+    padding-top: 5%;
+    padding-top: 5%;
+}
+
+
+#work-experience{
+    padding: 0 10% 0 10%;
+    text-align: justify;
+    align-items: center;
+    padding-top: 5%;
+    padding-top: 5%;
+}
+
+.workname{
+    align-items: center;
+    text-align: center;
+}
+
+.timeline-duties{
+    width: 100%;
+    font-size: 15px;
+}
+
+.seemore{
+    width: 100%;
+    background-color:#02ff1c;
+    color:#09113A;
+    border: none;
+
+}
+
+.card__team{
+    border: none;
+}
+
+.seemore:hover{
+    background-color: #ff5e00;
+    color: white;
+}
+
+.modal-body,.modal-title,.modal-header,.modal-content,.modal-dialog,.shrink{
+    background-color: white;
+    color: #09113A;
+}
+
+.shrink img {
+    transition: 1s ease;
+    padding-bottom: 20px;
+    background-color: white;
+    }
+    
+.shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+
+.seemore-ed{
+        width: 100%;
+        background-color:#ff02ab;
+        color:#09113A;
+        border: none;
+    
+    }
+    
+    
+.seemore-ed:hover{
+        background-color: #fe0606;
+        color: white;
+    }
+
+
+    #projects{
+        color: white;
+        text-align: center;
+    }
+    
+    .div-projects{
+        width: 100%;
+        position:center;
+    }
+    
+    #container-projects{
+        padding-top: 10%;
+        width: 100%;
+        position: center;
+        margin: auto;
+        padding-bottom: 5%;
+    }
+    
+    
+    #carousel-projects{
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+    
+    }
+    
+    
+    .descript-project {
+        color: white;
+        font-size: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: #09113A;
+      }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .75s ease;
+        background-color: #09113A;
+      }
+    
+    .carousel-item:hover .overlay {
+        opacity: 0.95;
+      }
+
+
+      /* languages */
+
+      #lang-spanish, #lang-english,#lang-french,#lang-portuguese{
+        align-items: center;
+        width: 12rem;
+        padding-bottom: 2%;
+        margin: auto;
+        padding-top: 3%;
+
+      }
+
+      .progress{
+        height: 10px;
+        border-radius: 10px;
+        width: 80%;
+        padding-bottom: 2%;
+    }
+    
+    .progress div {
+        background-color: rgb(0, 183, 255);
+    }
+
+    .flag-lang{
+        width: 64px;
+        align-items: center;
+        background-color: white;
+    }
+
+
+    .hardskillsect{
+        color: white;
+        text-align: center;
+        background-color: #09113A;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+
+    #lang-python,#lang-sql,#lang-java,#lang-matlab, #lang-html,#lang-css,#lang-js,#lang-arduino,#lang-office,#lang-photoshop,#lang-premiere,#lang-canva,#lang-cad,#lang-fusion,#lang-solid,#lang-labview,#lang-figma,#lang-camtasia{
+        align-items: center;
+        width: 9rem;
+        padding-bottom: 2%;
+        margin: auto;
+        padding-top: 3%;
+
+    }
+
+
+    #lang-solve,#lang-teamwork,#lang-time,#lang-comunication,#lang-listening{
+        align-items: center;
+        width: 10rem;
+        margin: auto;
+        padding-top: 3%;
+    }
+
+    #footer{
+        background-color: black;
+        width: 100%;
+    }
+
+    #formulario{
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+
+    .div-hobbies{
+        padding-top: 10%;
+    }
+
+    .icon:hover{
+        animation: shaker 0.8s;
+      animation-iteration-count: infinite;
+    }
+    
+
+    .flag-lang:hover{
+        animation: shaker 0.8s;
+      animation-iteration-count: infinite;
+    }
+    
+    
+    @keyframes shaker {
+        10%,90% { transform: translate(-1px, -2px)}
+        20%,80% { transform: translate(3px, 0px) }
+        30%,50%,70% { transform: translate(-3px, 2px) }
+        40%,60% { transform: translate(1px, -1px)}
+      }
+
+
+      #feedback {
+        height: 0px;
+        width: 85px;
+        position: fixed;
+        right: 0;
+        top: 50%;
+        z-index: 1000;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+    
+    }
+    
+    #feedback a {
+        display: block;
+        background:#000;
+        height: 52px;
+        padding-top: 10px;
+        width: 155px;
+        text-align: center;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #feedback a:hover {
+        background:#00495d;
+    }
+
+
+    @media (max-width: 800px) {
+        *{
+            font-size: 15px;
+        }
+
+        #profilecont{
+            visibility: hidden;
+            height: 1px;
+        }
+
+        #profilecont2{
+            height: 50%;
+            visibility: visible;
+            width: 100%;
+            text-align: center;
+        }
+
+        .titulo{
+            text-align: center;
+        }
+
+
+    
+    }
